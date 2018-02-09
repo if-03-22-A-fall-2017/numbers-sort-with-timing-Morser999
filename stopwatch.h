@@ -38,4 +38,8 @@
 *** CLOCKS_PER_SEC from time.h in order to implement the functions correctly.
 */
 
+void start_stopwatch();
+float elapsed_time();
+void stop_stopwatch();
+
 #endif

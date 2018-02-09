@@ -23,7 +23,9 @@
 #include <string.h>
 
 #include "stopwatch.h"
+#include "stopwatch.cpp"
 #include "sorting_algorithms.h"
+#include "sorting_algorithms.cpp"
 
 #define HUGE			65535	// 2^16
 #define VERY_LARGE 		16384	// 2^14
@@ -39,3 +41,7 @@
 * 2. Copy from this array as many elements as needed into the seven target directories
 *     (to make this efficiently, consider to use the function memcpy() of string.h).
 */
+int main(int argc, char const *argv[]) {
+
+  return 0;
+}
